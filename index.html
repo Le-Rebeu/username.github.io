@@ -1,0 +1,51 @@
+﻿<!DOCTYPE HTML>
+<html style="background-color: aqua">
+	<!--- Le titre dans l'onglet --->
+	<head>
+		<title>Dz Lakama</title>
+	</head>
+	<!--- Le Haut de la page --->
+	<div id="Acceuil">
+		<h2>Dz Lakama</h2>
+		<li><a href="note.html">Moyennes/Notes</a></li>
+		<li><a href="media.html">Media</a></li>
+		<li><a href="agendas.html">Agendas</a></li>
+	</div>
+	<!--- La Page du site --->
+	<body>
+		<div id="introduction">
+			<h1 align="center">Site de test</h1>
+			<p><strong>Voila mon site pour appliquer mes connaissances <em>en HTML</em></strong> <br>
+			Donc sur le code source de la page, il y a donc toutes mes connaissances appliquée.</p>
+		</div>	
+	</body>
+	<div id="page" >
+		<h3> Les pages du site :</h3>
+		<ul>
+			<li><a href="./media.html" />Page Sur les Médias</a></li>
+			<li><a href="./agendas.html" />Page Sur les RDV et les Anniversaires</a></li>
+			<li><a href="./note.html" />Page Sur les Notes et Moyennes</a></li>
+		</ul>
+	</div>	
+	<!--- Le Bas de la page --->
+	<body>
+		<div id="footer">
+			<footer>
+				<p>
+					Site crée par Lakama Sofiène
+				</p>
+				<p align="right">
+					<script language="JavaScript">
+						today = new Date() ;
+						document.write("Nous sommes le : ", today.getDate(),"/",today.getMonth()+1,"/",today.getYear()+1900);
+						document.write("\n Il est  : ", today.getHours(),":",today.getMinutes());
+						<!-- document.querySelector('footer').addEventListener('click', function() { -->
+							<!-- alert('Tu cherche quoi pelo!?'); -->
+						<!-- }); -->
+						<!-- alert("Le script a mis " + today/1000 + " secondes."); -->
+					</script>
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>
