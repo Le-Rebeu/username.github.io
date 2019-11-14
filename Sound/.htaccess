@@ -1,3 +1,2 @@
-Options +Indexes 
-# or #
-IndexIgnore *
+Options +Indexes
+IndexOptions FancyIndexing FoldersFirst
