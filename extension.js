@@ -1,5 +1,5 @@
 document.getElementById("myHead").innerHTML =
-	"<title>Dz Lakama</title>"
+	"<title>Dz - Le_Rebeu</title>"
 	+"<h2>DZ - Le_Rebeu's Website</h2>"
 	+		"<nav>"
 	+			"<ul class='listonglet'>"
@@ -33,4 +33,4 @@ document.getElementById("myHead").innerHTML =
 
 document.getElementById("myFooter").innerHTML =
 	"<p id='copyright' align='right'>Copyright &copy; " + new Date().getFullYear() + "</p>"
-	+ "<p id='credits' align='right'>Site crée par Lakama Sofiène</p>";
+	+ "<p id='credits' align='right'>Site crée par Le_Rebeu</p>";
