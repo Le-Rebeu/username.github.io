@@ -1,5 +1,5 @@
 document.getElementById("myHead").innerHTML =
-	"<title>Dz - Le_Rebeu</title>"
+	"<title>Le_Rebeu</title>"
 	+"<h2>DZ - Le_Rebeu's Website</h2>"
 	+		"<nav>"
 	+			"<ul class='listonglet'>"
